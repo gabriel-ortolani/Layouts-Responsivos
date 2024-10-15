@@ -88,6 +88,10 @@ a{
     font-weight: 500;
     letter-spacing: 1px;
 }
+a:hover{
+    background-color: var(--corSecundaria);
+    color: #000;
+}
 .celular{
     position: absolute;
     top: 190px;
@@ -104,4 +108,45 @@ a{
 
     /* tamanho --> lado --> posição */
     clip-path: circle(600px at right 800px);
+}
+/* responsividade */
+@media (max-width: 992px){
+    .celular{
+        display: none;
+    }
+    .circle{
+        display: none;
+    }
+    main h1{
+        font-size: 1.8em;
+        top: 120px;
+        left: 60px;
+    }
+    main .social{
+        left: 70px;
+        top: 120px;
+    }
+    main .social img{
+        width: 65px;
+    }
+    main .or li{
+        left: 65px;
+        top: 120px;
+        font-size: 15px;
+    }
+    main .texto input{
+        width: 220px;
+        left: 60px;
+        top: 130px;
+    }
+    main .texto p{
+        left: 45px;
+        top: 130px;
+    }
+    a{
+        left: 100px;
+        top: 160px;
+        width: 120px;
+        font-size: 15px;
+    }
 }
