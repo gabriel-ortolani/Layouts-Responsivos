@@ -72,6 +72,7 @@ main .texto input{
     left: 160px;
     top: 50px;
     width: 230px;
+    color: var(--branco);
 }
 a{
     display: flex;
