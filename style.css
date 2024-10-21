@@ -50,6 +50,7 @@ main .social{
 main .social img{
     width: 75px;
     padding: 20px;
+    cursor: pointer;
 }
 p{
     color: var(--branco);
