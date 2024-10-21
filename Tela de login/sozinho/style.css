@@ -158,4 +158,10 @@ a:hover{
         width: 100px;
         font-size: 10px;
     }
+    main .texto p{
+        width: 100px;
+    }
+    .main{
+        width: 260px;
+    }
 }
